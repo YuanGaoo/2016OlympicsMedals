@@ -29,12 +29,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class OlympicsMedals {
 	WebDriver driver;
-	// List<Integer> Rank;
-	// List<String> NOC;
-	// List<Integer> Gold;
-	// List<Integer> Silver;
-	// List<Integer> Bronze;
-	// List<Integer> Total;
+
 
 	@BeforeClass
 	public void setUp() {
@@ -45,15 +40,6 @@ public class OlympicsMedals {
 
 	}
 
-	@BeforeMethod
-	public void passby() {
-		// Rank = new ArrayList<>();
-		// NOC = new ArrayList<>();
-		// Gold = new ArrayList<>();
-		// Silver = new ArrayList<>();
-		// Bronze = new ArrayList<>();
-		// Total = new ArrayList<>();
-	}
 
 	@Test(priority = 0)
 	public void SortTest() throws InterruptedException {
