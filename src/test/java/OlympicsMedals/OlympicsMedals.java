@@ -163,7 +163,7 @@ public class OlympicsMedals {
 		
 		for (int i = 0; i < medals.size(); i++) { //0+1,0+2,0+3,0+4,0+5;  1+2,1+3,1+4,1+5;  2+3,2+4,2+5  ,3+4,3+5 
 			for (int j = i+1 ; j < medals.size(); j++) {
-				if(((medals.get(i)+medals.get(j))==18)) {
+				if(((medals.get(i)+medals.get(j))==sum)) {
 					
 					valuesOfTwoCountry1=medals.get(i);// find values
 					valuesOfTwoCountry2=medals.get(j);//find values
